@@ -1,0 +1,11 @@
+post-install() {
+        ldconfig
+}
+
+post-upgrade() {
+        post-install
+}
+
+post-remove() {
+        post-install
+}
